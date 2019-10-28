@@ -15,6 +15,7 @@ public class UserController {
 	public String displayForm(Model model) {
 		model.addAttribute("user", new User());
 		int i = 10;
+		int a=0;
 		return "userForm";
 	}
 
